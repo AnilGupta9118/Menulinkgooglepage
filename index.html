@@ -3,258 +3,242 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MenuLink – Digital Menu Platform (Launching 1 Jan 2026)</title>
 
-  <!-- ⭐ Favicon Added -->
-  <link rel="icon" type="image/png" href="/mnt/data/dc4df6cd-d200-4e5d-ab24-764f0138da95.png" />
+  <title>MenuLink – Digital Menu & Restaurant Management Platform</title>
 
-  <meta name="description" content="MenuLink is a premium digital menu and restaurant management platform launching on 1 January 2026. Explore features, screenshots, FAQs and founder info." />
-  <meta name="keywords" content="MenuLink, digital menu, QR menu, restaurant dashboard, food tech, premium" />
+  <meta name="description" content="MenuLink is a modern digital menu and restaurant management platform. Create QR menus, manage items, combos, and analytics from one dashboard." />
+  <meta name="keywords" content="MenuLink, digital menu, QR menu, restaurant software, food tech, SaaS" />
+  <link rel="canonical" href="https://menulink.in" />
 
-  <meta property="og:title" content="MenuLink – The Premium Digital Menu Platform" />
-  <meta property="og:description" content="A powerful, premium digital menu and restaurant management solution. Launching 1 January 2026." />
-  <meta property="og:image" content="https://res.cloudinary.com/dcswmweqe/image/upload/v1763716259/founder_profile_image_bs1rfx.jpg" />
+  <meta property="og:title" content="MenuLink – Smart Digital Menus for Restaurants" />
+  <meta property="og:description" content="A professional digital menu and restaurant management platform. No app installation required." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://menulink.in/" />
-
-  <meta name="twitter:card" content="summary_large_image" />
-  <link rel="canonical" href="https://menulink.in/" />
+  <meta property="og:url" content="https://menulink.in" />
 
   <style>
     body {
-      font-family: 'Inter', Arial, sans-serif;
       margin: 0;
-      padding: 0;
-      background: #f5f7fa;
-      color: #222;
+      font-family: Inter, Arial, sans-serif;
+      background: #f6f8fb;
+      color: #1a1a1a;
       line-height: 1.6;
     }
 
     header {
-      background: linear-gradient(135deg, #0a0f1f 0%, #1c253b 100%);
+      background: linear-gradient(135deg, #0b1020, #151c34);
       color: #fff;
-      padding: 80px 20px 60px;
+      padding: 90px 20px;
       text-align: center;
-      border-bottom: 5px solid #0ff;
     }
+
     header h1 {
-      margin: 0;
-      font-size: 58px;
+      font-size: 56px;
       font-weight: 900;
-      letter-spacing: 2px;
-      text-shadow: 0 0 10px rgba(0,255,255,0.4);
+      margin: 0;
+      letter-spacing: 1.5px;
     }
+
     header p {
-      margin-top: 10px;
-      font-size: 24px;
-      color: #c0c0c0;
+      margin-top: 12px;
+      font-size: 22px;
+      color: #cbd5f5;
     }
-    .coming-soon {
-      background: #0ff;
-      color: #0a0f1f;
-      padding: 10px 24px;
+
+    .cta {
+      margin-top: 35px;
+    }
+
+    .cta a {
       display: inline-block;
-      margin-top: 25px;
-      border-radius: 30px;
-      font-size: 18px;
-      font-weight: 700;
-      box-shadow: 0 4px 15px rgba(0,255,255,0.5);
-      animation: pulse 2s infinite;
-    }
-    @keyframes pulse {
-      0% { transform: scale(1); }
-      50% { transform: scale(1.05); }
-      100% { transform: scale(1); }
+      background: #00f0ff;
+      color: #000;
+      padding: 16px 38px;
+      border-radius: 32px;
+      font-size: 20px;
+      font-weight: 800;
+      text-decoration: none;
+      box-shadow: 0 6px 25px rgba(0,240,255,0.5);
     }
 
-    .container { max-width: 1150px; margin: auto; padding: 50px 25px; }
+    .cta small {
+      display: block;
+      margin-top: 14px;
+      color: #9aa4ff;
+      font-size: 14px;
+    }
 
-    .section-title {
+    .container {
+      max-width: 1150px;
+      margin: auto;
+      padding: 70px 24px;
+    }
+
+    .section {
+      margin-bottom: 70px;
+    }
+
+    .section h2 {
       font-size: 36px;
       font-weight: 800;
-      margin-bottom: 20px;
-      color: #0a0f1f;
-      border-bottom: 3px solid #ff6b6b;
-      display: inline-block;
-      padding-bottom: 5px;
+      margin-bottom: 18px;
+      color: #0b1020;
+    }
+
+    .section p {
+      font-size: 18px;
+      color: #444;
+      max-width: 820px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 30px;
+      margin-top: 30px;
     }
 
     .card {
       background: #fff;
-      padding: 35px;
-      border-radius: 20px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-      margin-bottom: 40px;
-      transition: transform 0.3s, box-shadow 0.3s;
-    }
-    .card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+      border-radius: 18px;
+      padding: 34px;
+      box-shadow: 0 12px 35px rgba(0,0,0,0.08);
     }
 
-    .grid-2 {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 30px;
+    .card h3 {
+      margin-top: 0;
+      font-size: 22px;
+      color: #0b1020;
     }
 
-    .screenshot {
-      width: 100%;
-      border-radius: 15px;
-      box-shadow: 0 8px 25px rgba(0,0,0,0.2);
-      transition: transform 0.3s;
+    .card p {
+      font-size: 16px;
+      color: #555;
     }
-    .screenshot:hover {
-      transform: scale(1.02);
-    }
-
-    .founder-box {
-      display: flex;
-      align-items: center;
-      gap: 30px;
-      margin-top: 20px;
-      padding: 20px;
-      border: 1px solid #eee;
-      border-radius: 15px;
-    }
-    .founder-box img {
-      width: 130px;
-      height: 130px;
-      border-radius: 50%;
-      object-fit: cover;
-      border: 5px solid #0ff;
-      box-shadow: 0 0 15px rgba(0,255,255,0.3);
-    }
-    .founder-box h3 {
-      margin: 0;
-      font-size: 24px;
-      color: #0a0f1f;
-    }
-    .founder-box p {
-      font-size: 17px;
-      color: #444;
-      margin: 6px 0 0 0;
-    }
-
-    .card ul { list-style: none; padding: 0; }
-    .card li {
-      padding: 12px 0;
-      border-bottom: 1px dashed #eee;
-      font-size: 18px;
-      padding-left: 30px;
-      position: relative;
-    }
-    .card li:before {
-      content: '✨';
-      position: absolute;
-      left: 0;
-      color: #0ff;
-    }
-
-    .card p strong { color: #ff6b6b; }
 
     footer {
-      background: #0a0f1f;
-      color: #a0a0a0;
-      padding: 30px;
+      background: #0b1020;
+      color: #9aa0c5;
       text-align: center;
-      font-size: 15px;
-      margin-top: 50px;
+      padding: 40px 20px;
+      font-size: 14px;
     }
 
-    @media(max-width:900px){
-      .grid-2 { grid-template-columns: 1fr; }
-      header h1 { font-size: 42px; }
+    @media (max-width: 768px) {
+      header h1 { font-size: 40px; }
       header p { font-size: 18px; }
-      .section-title { font-size: 28px; }
-      .founder-box { flex-direction: column; text-align: center; }
     }
   </style>
 </head>
 
 <body>
 
-  <header>
-    <h1>MenuLink</h1>
-    <p>The Premium Digital Menu & Restaurant Management Platform</p>
-    <div class="coming-soon">🚀 Launching on 1 January 2026</div>
-  </header>
+<header>
+  <h1>MenuLink</h1>
+  <p>Smart Digital Menu & Restaurant Management Platform</p>
 
-  <div class="container">
-
-    <div class="card">
-      <h2 class="section-title">✨ About MenuLink</h2>
-      <p style="font-size:18px;">
-        MenuLink is an <b>elite digital solution</b> for restaurants, cafes, and cloud kitchens.  
-        Manage your menu, categories, combos, QR ordering, and analytics effortlessly.
-      </p>
-    </div>
-
-    <div class="card">
-      <h2 class="section-title">🔑 Founder & Vision</h2>
-
-      <div class="founder-box">
-        <img src="https://res.cloudinary.com/dcswmweqe/image/upload/v1763716259/founder_profile_image_bs1rfx.jpg" />
-
-        <div>
-          <h3>Anil Gupta</h3>
-          <p><b>Founder & Lead Developer – MenuLink</b></p>
-          <p style="font-style:italic;color:#0a0f1f;">
-            “Our vision is to build the simplest, fastest, and most elegant  
-            digital menu system for global restaurants.”
-          </p>
-        </div>
-      </div>
-
-      <p style="text-align:center;margin-top:15px;font-size:16px;">
-        Contact:<br>
-        📞 <b>+91 9118996474</b><br>
-        📧 <b>anilgupta9118cs@gmail.com</b>
-      </p>
-    </div>
-
-    <div class="card">
-      <h2 class="section-title">🖼️ Product Screenshots</h2>
-      <div class="grid-2">
-        <img class="screenshot" src="https://res.cloudinary.com/dcswmweqe/image/upload/v1763716260/Dashbaord_overview_blgees.jpg" />
-        <img class="screenshot" src="https://res.cloudinary.com/dcswmweqe/image/upload/v1763716259/Menuitem_section_in_dashbaord_bthvvh.jpg" />
-        <img class="screenshot" src="https://res.cloudinary.com/dcswmweqe/image/upload/v1763716259/Qr_generator_in_dashbaord_knvljz.jpg" />
-        <img class="screenshot" src="https://res.cloudinary.com/dcswmweqe/image/upload/v1763716260/Restaurant_profile_in_dashboard_whc0os.jpg" />
-      </div>
-    </div>
-
-    <div class="card">
-      <h2 class="section-title">🚀 Core Features</h2>
-      <ul>
-        <li>Digital QR Menu System</li>
-        <li>Full Restaurant Dashboard</li>
-        <li>Super Category & Combo System</li>
-        <li>Custom QR Generator</li>
-        <li>Menu Analytics & Insights</li>
-      </ul>
-    </div>
-
-    <div class="card">
-      <h2 class="section-title">❓ FAQs</h2>
-
-      <p><strong>What is MenuLink?</strong><br>
-        A premium digital menu & restaurant management platform.
-      </p>
-
-      <p><strong>Launch Date?</strong><br>
-        MenuLink officially launches on <b>1 January 2026</b>.
-      </p>
-
-      <p><strong>Pricing Model?</strong><br>
-        Basic version free forever. Premium features in subscriptions.
-      </p>
-    </div>
-
+  <div class="cta">
+    <a href="https://merchant.menulink.in" target="_blank">
+      Restaurant Login
+    </a>
+    <small>No app install • Works on mobile & desktop</small>
   </div>
+</header>
 
-  <footer>
-    <p>Crafted with precision | © 2025 MenuLink. All rights reserved.</p>
-  </footer>
+<div class="container">
+
+  <section class="section">
+    <h2>About MenuLink</h2>
+    <p>
+      MenuLink is a professional SaaS platform built for modern restaurants,
+      cafes, and cloud kitchens. It enables restaurant owners to create digital
+      menus, generate QR codes, manage items and pricing, and operate everything
+      from a single secure dashboard.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2>How It Works</h2>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Restaurant Login</h3>
+        <p>
+          Owners log in to the merchant dashboard to set up their restaurant,
+          categories, and menu items.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>QR Code Generation</h3>
+        <p>
+          MenuLink generates a unique QR code for the restaurant, ready to be
+          placed on tables or counters.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Customer Scan</h3>
+        <p>
+          Customers scan the QR and instantly view the menu in their browser —
+          no app downloads required.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Core Capabilities</h2>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Digital QR Menus</h3>
+        <p>Fast-loading, mobile-friendly digital menus.</p>
+      </div>
+
+      <div class="card">
+        <h3>Menu Management</h3>
+        <p>Manage categories, items, combos, and pricing easily.</p>
+      </div>
+
+      <div class="card">
+        <h3>Restaurant Dashboard</h3>
+        <p>Centralized control panel for all restaurant operations.</p>
+      </div>
+
+      <div class="card">
+        <h3>Analytics Ready</h3>
+        <p>Designed to support insights and performance tracking.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Who Is It For?</h2>
+    <p>
+      MenuLink is designed for restaurants that want a clean, modern, and
+      reliable digital menu experience — without forcing customers to install
+      apps or staff to handle complexity.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2>Founder</h2>
+    <p>
+      MenuLink is founded and built by <strong>Anil Gupta</strong>, focusing on
+      simplicity, performance, and real-world restaurant workflows.
+    </p>
+
+    <p style="margin-top:14px;">
+      📧 menulinkindia@gmail.com<br />
+      📞 +91 9161163527
+    </p>
+  </section>
+
+</div>
+
+<footer>
+  © 2026 MenuLink • Built in India 🇮🇳 • All rights reserved
+</footer>
 
 </body>
 </html>
